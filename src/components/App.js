@@ -1,11 +1,11 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import './App.css';
-import Home from './components/Home';
-import NavBar from './components/NavBar';
-import Algebra from "./components/Algebra";
-import Geometry from "./components/Geometry";
-import Physics from "./components/Physics";
+import './styles/App.css';
+import Home from './Home';
+import NavBar from './NavBar';
+import Algebra from "./Algebra";
+import Geometry from "./Geometry";
+import Physics from "./Physics";
 
 function App() {
   return (
