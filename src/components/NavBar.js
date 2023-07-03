@@ -16,6 +16,18 @@ function NavBar() {
             >
                 Algebra
             </NavLink>
+            <NavLink
+                to="/geometry"
+                exact
+            >
+                Geometry
+            </NavLink>
+            <NavLink
+                to="/physics"
+                exact
+            >
+                Physics
+            </NavLink>
         </div>
     )
 }
