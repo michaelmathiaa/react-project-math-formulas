@@ -37,93 +37,72 @@
       },
       {
         "id": 6,
-        "category": "Algebra",
-        "subcategory": "",
-        "name": "",
+        "category": "Geometry",
+        "subcategory": "Area",
+        "name": "Square",
         "image": ""
       },
       {
         "id": 7,
         "category": "Geometry",
-        "subcategory": "",
-        "name": "",
+        "subcategory": "Area",
+        "name": "Rectangle",
         "image": ""
       },
       {
         "id": 8,
         "category": "Geometry",
-        "subcategory": "",
-        "name": "",
+        "subcategory": "Area",
+        "name": "Circle",
         "image": ""
       },
       {
         "id": 9,
         "category": "Geometry",
-        "subcategory": "",
-        "name": "",
+        "subcategory": "Area",
+        "name": "Triangle",
         "image": ""
       },
       {
         "id": 10,
         "category": "Geometry",
-        "subcategory": "",
-        "name": "",
+        "subcategory": "Area",
+        "name": "Parallelogram",
         "image": ""
       },
       {
         "id": 11,
-        "category": "Geometry",
-        "subcategory": "",
-        "name": "",
+        "category": "Physics",
+        "subcategory": "Moments of Inertia",
+        "name": "Solid Disk or Cylinder",
         "image": ""
       },
       {
         "id": 12,
-        "category": "Geometry",
-        "subcategory": "",
-        "name": "",
+        "category": "Physics",
+        "subcategory": "Moments of Inertia",
+        "name": "Solid Ball",
         "image": ""
       },
       {
         "id": 13,
         "category": "Physics",
-        "subcategory": "",
-        "name": "",
+        "subcategory": "Moments of Inertia",
+        "name": "Hollow Sphere",
         "image": ""
       },
       {
         "id": 14,
         "category": "Physics",
-        "subcategory": "",
-        "name": "",
+        "subcategory": "Moments of Inertia",
+        "name": "Hoop or Hollow Cylinder",
         "image": ""
       },
       {
         "id": 15,
         "category": "Physics",
-        "subcategory": "",
-        "name": "",
-        "image": ""
-      },
-      {
-        "id": 16,
-        "category": "Physics",
-        "subcategory": "",
-        "name": "",
-        "image": ""
-      },
-      {
-        "id": 17,
-        "category": "Physics",
-        "subcategory": "",
-        "name": "",
-        "image": ""
-      },
-      {
-        "id": 18,
-        "category": "Physics",
-        "subcategory": "",
-        "name": "",
+        "subcategory": "Moments of Inertia",
+        "name": "A collection of Point Articles",
         "image": ""
       }
     ]
