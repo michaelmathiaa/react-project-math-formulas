@@ -5,126 +5,126 @@
         "category": "Algebra",
         "subcategory": "The Sum and Difference of Two Cubes",
         "name": "Sum of Two Cubes",
-        "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png"
+        "image": "./src/images/sum-of-two-cubes.jpg"
       },
       {
         "id": 2,
         "category": "Algebra",
         "subcategory": "The Sum and Difference of Two Cubes",
         "name": "Difference of Two Cubes",
-        "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png"
+        "image": ""
       },
       {
         "id": 3,
         "category": "Algebra",
         "subcategory": "Slope",
         "name": "Slope",
-        "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png"
+        "image": ""
       },
       {
         "id": 4,
         "category": "Algebra",
         "subcategory": "Slope",
         "name": "Point-Slope Form",
-        "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png"
+        "image": ""
       },
       {
         "id": 5,
         "category": "Algebra",
         "subcategory": "Slope",
         "name": "Slope-Intercept Form",
-        "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png"
+        "image": ""
       },
       {
         "id": 6,
         "category": "Algebra",
         "subcategory": "",
         "name": "",
-        "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png"
+        "image": ""
       },
       {
         "id": 7,
         "category": "Geometry",
         "subcategory": "",
         "name": "",
-        "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png"
+        "image": ""
       },
       {
         "id": 8,
         "category": "Geometry",
         "subcategory": "",
         "name": "",
-        "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png"
+        "image": ""
       },
       {
         "id": 9,
         "category": "Geometry",
         "subcategory": "",
         "name": "",
-        "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png"
+        "image": ""
       },
       {
         "id": 10,
         "category": "Geometry",
         "subcategory": "",
         "name": "",
-        "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png"
+        "image": ""
       },
       {
         "id": 11,
         "category": "Geometry",
         "subcategory": "",
         "name": "",
-        "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png"
+        "image": ""
       },
       {
         "id": 12,
         "category": "Geometry",
         "subcategory": "",
         "name": "",
-        "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png"
+        "image": ""
       },
       {
         "id": 13,
         "category": "Physics",
         "subcategory": "",
         "name": "",
-        "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png"
+        "image": ""
       },
       {
         "id": 14,
         "category": "Physics",
         "subcategory": "",
         "name": "",
-        "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png"
+        "image": ""
       },
       {
         "id": 15,
         "category": "Physics",
         "subcategory": "",
         "name": "",
-        "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png"
+        "image": ""
       },
       {
         "id": 16,
         "category": "Physics",
         "subcategory": "",
         "name": "",
-        "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png"
+        "image": ""
       },
       {
         "id": 17,
         "category": "Physics",
         "subcategory": "",
         "name": "",
-        "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png"
+        "image": ""
       },
       {
         "id": 18,
         "category": "Physics",
         "subcategory": "",
         "name": "",
-        "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png"
+        "image": ""
       }
     ]
 }
