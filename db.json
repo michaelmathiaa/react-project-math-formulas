@@ -1,109 +1,25 @@
 {
-    "formulas": [
-      {
-        "id": 1,
-        "category": "Algebra",
-        "subcategory": "The Sum and Difference of Two Cubes",
-        "name": "Sum of Two Cubes",
-        "image": "./src/images/sum-of-two-cubes.jpg"
-      },
-      {
-        "id": 2,
-        "category": "Algebra",
-        "subcategory": "The Sum and Difference of Two Cubes",
-        "name": "Difference of Two Cubes",
-        "image": ""
-      },
-      {
-        "id": 3,
-        "category": "Algebra",
-        "subcategory": "Slope",
-        "name": "Slope",
-        "image": ""
-      },
-      {
-        "id": 4,
-        "category": "Algebra",
-        "subcategory": "Slope",
-        "name": "Point-Slope Form",
-        "image": ""
-      },
-      {
-        "id": 5,
-        "category": "Algebra",
-        "subcategory": "Slope",
-        "name": "Slope-Intercept Form",
-        "image": ""
-      },
-      {
-        "id": 6,
-        "category": "Geometry",
-        "subcategory": "Area",
-        "name": "Square",
-        "image": ""
-      },
-      {
-        "id": 7,
-        "category": "Geometry",
-        "subcategory": "Area",
-        "name": "Rectangle",
-        "image": ""
-      },
-      {
-        "id": 8,
-        "category": "Geometry",
-        "subcategory": "Area",
-        "name": "Circle",
-        "image": ""
-      },
-      {
-        "id": 9,
-        "category": "Geometry",
-        "subcategory": "Area",
-        "name": "Triangle",
-        "image": ""
-      },
-      {
-        "id": 10,
-        "category": "Geometry",
-        "subcategory": "Area",
-        "name": "Parallelogram",
-        "image": ""
-      },
-      {
-        "id": 11,
-        "category": "Physics",
-        "subcategory": "Moments of Inertia",
-        "name": "Solid Disk or Cylinder",
-        "image": ""
-      },
-      {
-        "id": 12,
-        "category": "Physics",
-        "subcategory": "Moments of Inertia",
-        "name": "Solid Ball",
-        "image": ""
-      },
-      {
-        "id": 13,
-        "category": "Physics",
-        "subcategory": "Moments of Inertia",
-        "name": "Hollow Sphere",
-        "image": ""
-      },
-      {
-        "id": 14,
-        "category": "Physics",
-        "subcategory": "Moments of Inertia",
-        "name": "Hoop or Hollow Cylinder",
-        "image": ""
-      },
-      {
-        "id": 15,
-        "category": "Physics",
-        "subcategory": "Moments of Inertia",
-        "name": "A collection of Point Articles",
-        "image": ""
-      }
-    ]
+  "philosophers": [
+    {
+      "id": 1,
+      "name": "Socrates",
+      "birthYear": -470,
+      "deathYear": -399,
+      "description": "Very influential"
+    },
+    {
+      "id": 2,
+      "name": "Plato",
+      "birthYear": -428,
+      "deathYear": -348,
+      "description": "How did he?"
+    },
+    {
+      "id": 3,
+      "name": "Aristotle",
+      "birthYear": -384,
+      "deathYear": -322,
+      "description": "Who art thou?"
+    }
+  ]
 }

@@ -1,31 +1,38 @@
-import React from "react";
-import { Route, Switch } from "react-router-dom";
-import "../styles/App.css";
+import React from 'react';
+import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
 import Home from './Home';
-import NavBar from './NavBar';
-import Algebra from "./Algebra";
-import Geometry from "./Geometry";
-import Physics from "./Physics";
+import PhilosopherList from './PhilosopherList';
+import AddPhilosopher from './AddPhilosopher';
+import "../styles/App.css"
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
+    <Router>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/philosophers">Philosophers</Link>
+          </li>
+          <li>
+            <Link to="/add">Add Philosopher</Link>
+          </li>
+        </ul>
+      </nav>
       <Switch>
         <Route exact path="/">
           <Home />
         </Route>
-        <Route exact path="/algebra">
-          <Algebra />
+        <Route exact path="/philosophers">
+          <PhilosopherList />
         </Route>
-        <Route exact path="/geometry">
-          <Geometry />
-        </Route>
-        <Route exact path="/physics">
-          <Physics />
+        <Route exact path="/add">
+          <AddPhilosopher />
         </Route>
       </Switch>
-    </div>
+    </Router>
   );
 }
 
