@@ -23,7 +23,7 @@ function NavBar() {
                 Add Philosopher
             </NavLink>
         </div>
-    )
-}
+    );
+};
 
 export default NavBar;
