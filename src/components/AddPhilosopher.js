@@ -5,17 +5,26 @@ function AddPhilosopher() {
   const [birthYear, setBirthYear] = useState('');
   const [deathYear, setDeathYear] = useState('');
   const [description, setDescription] = useState('');
+  const [philosophers, setPhilosophers] = useState([]);
+
+  function addPerson(newPerson) {
+    setPhilosophers((prevPhilosophers) => {
+      console.log("Previous Philosophers:", prevPhilosophers);
+
+      return [...prevPhilosophers, newPerson];
+    });
+  }
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
+  
     const newPhilosopher = {
       name,
       birthYear: parseInt(birthYear),
       deathYear: parseInt(deathYear),
-      description
+      description,
     };
-
+  
     fetch('http://localhost:4000/philosophers', {
       method: 'POST',
       headers: {
@@ -23,15 +32,18 @@ function AddPhilosopher() {
       },
       body: JSON.stringify(newPhilosopher),
     })
-      .then((r) => r.json())
+      .then((response) => response.json())
       .then((data) => {
         console.log('New philosopher added:', data);
+        addPerson(data);
+  
         setName('');
         setBirthYear('');
         setDeathYear('');
         setDescription('');
       });
   };
+  
 
   return (
     <div>
