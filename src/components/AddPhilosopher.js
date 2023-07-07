@@ -1,28 +1,20 @@
 import React, { useState } from 'react';
+import "../styles/AddPhilosopher.css";
 
-function AddPhilosopher() {
+function AddPhilosopher({ onAddPhilosopher }) {
   const [name, setName] = useState('');
   const [birthYear, setBirthYear] = useState('');
   const [deathYear, setDeathYear] = useState('');
   const [description, setDescription] = useState('');
-  const [philosophers, setPhilosophers] = useState([]);
-
-  function addPerson(newPerson) {
-    setPhilosophers((prevPhilosophers) => {
-      console.log("Previous Philosophers:", prevPhilosophers);
-
-      return [...prevPhilosophers, newPerson];
-    });
-  }
 
   const handleSubmit = (e) => {
     e.preventDefault();
   
-    const newPhilosopher = {
-      name,
+    const philosopherData = {
+      name: name,
       birthYear: parseInt(birthYear),
       deathYear: parseInt(deathYear),
-      description,
+      description: description,
     };
   
     fetch('http://localhost:4000/philosophers', {
@@ -30,13 +22,11 @@ function AddPhilosopher() {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify(newPhilosopher),
+      body: JSON.stringify(philosopherData),
     })
-      .then((response) => response.json())
-      .then((data) => {
-        console.log('New philosopher added:', data);
-        addPerson(data);
-  
+      .then((r) => r.json())
+      .then((newPhilosopher) => {
+        onAddPhilosopher(newPhilosopher);
         setName('');
         setBirthYear('');
         setDeathYear('');
@@ -50,19 +40,19 @@ function AddPhilosopher() {
       <h2>Add Philosopher</h2>
       <form onSubmit={handleSubmit}>
         <div>
-          <label>Name:</label>
+          <label>Name: </label>
           <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
         </div>
         <div>
-          <label>Birth Year:</label>
+          <label>Birth Year: </label>
           <input type="number" value={birthYear} onChange={(e) => setBirthYear(e.target.value)} />
         </div>
         <div>
-          <label>Death Year:</label>
+          <label>Death Year: </label>
           <input type="number" value={deathYear} onChange={(e) => setDeathYear(e.target.value)} />
         </div>
         <div>
-          <label>Description:</label>
+          <label>Description: </label>
           <input type="text" value={description} onChange={(e) => setDescription(e.target.value)} />
         </div>
         <button type="submit">Add</button>

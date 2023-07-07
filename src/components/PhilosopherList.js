@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import "../styles/PhilosopherList.css";
+import AddPhilosopher from './AddPhilosopher';
 
 function PhilosopherList() {
   const [philosophers, setPhilosophers] = useState([]);
@@ -8,6 +10,10 @@ function PhilosopherList() {
       .then((r) => r.json())
       .then((data) => setPhilosophers(data));
   }, []);
+
+  function handleAddPhilosopher(newPhilosopher) {
+    setPhilosophers([...philosophers, newPhilosopher]);
+  }
 
   return (
     <div>
@@ -22,6 +28,7 @@ function PhilosopherList() {
           </div>
         ))}
       </div>
+      <AddPhilosopher philosophers={philosophers} onAddPhilosopher={handleAddPhilosopher}/>
     </div>
   );
 }
