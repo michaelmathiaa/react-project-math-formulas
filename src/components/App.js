@@ -3,7 +3,7 @@ import { BrowserRouter as Route, Switch } from 'react-router-dom';
 import Home from './Home';
 import NavBar from './NavBar';
 import PhilosopherList from './PhilosopherList';
-import AddPhilosopher from './AddPhilosopher';
+import Gallery from './Gallery';
 import "../styles/App.css"
 
 function App() {
@@ -17,8 +17,8 @@ function App() {
         <Route exact path="/philosophers">
           <PhilosopherList />
         </Route>
-        <Route exact path="/add">
-          <AddPhilosopher />
+        <Route exact path="/gallery">
+          <Gallery />
         </Route>
       </Switch>
     </div>

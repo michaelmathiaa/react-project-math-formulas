@@ -7,12 +7,16 @@ function Home() {
     <div>
       <section>
         <h1>Journey Through the Minds of Great Philosophers</h1>
-        <p>Learn about the influential philosopher's who shaped our thoughts and the way we think today. <br></br> From Plato to Jacques Derrida, I hope you find the information you are searching for and more! Enlighten yourself!</p>
+        <p>Learn about the influential philosopher's who shaped our thoughts and the way we think today.
+          <br></br>From Plato to Jacques Derrida, I hope you find the information you are searching for and more! Enlighten yourself!
+          <br></br>
+        </p>
         <img src={homePageImage} alt="Socrates" className='homeImage'></img>
-        <h3>Explore the ideas and philosophies that shaped our world</h3>
+        <h2>Explore the ideas and philosophies that shaped our world</h2>
+        <p>The information you will find here are </p>
       </section>
       <section>
-        <h2>Recommended Readings</h2>
+        <h4>Recommended Readings</h4>
         <ul>
           <li></li>
           <li></li>

@@ -18,10 +18,10 @@ function NavBar() {
                 Philosophers
             </NavLink>
             <NavLink
-                to="/add"
+                to="/gallery"
                 exact
             >
-                Add Philosopher
+                Gallery
             </NavLink>
         </div>
     );
