@@ -4,6 +4,7 @@ import AddPhilosopher from './AddPhilosopher';
 
 function PhilosopherList() {
   const [philosophers, setPhilosophers] = useState([]);
+  const [search, setSearch] = useState('');
 
   useEffect(() => {
     fetch('http://localhost:4000/philosophers')
@@ -11,14 +12,24 @@ function PhilosopherList() {
       .then((data) => setPhilosophers(data));
   }, []);
 
+  const filteredPhilosophers = philosophers.filter((philosopher) =>
+    philosopher.name.toLowerCase().includes(search.toLowerCase())
+  );
+
   function handleAddPhilosopher(newPhilosopher) {
     setPhilosophers([...philosophers, newPhilosopher]);
   }
 
   return (
     <div>
+      <input
+        type="text"
+        placeholder="Search philosophers"
+        value={search}
+        onChange={(e) => setSearch(e.target.value)}
+      />
       <div className='philosopher-list'>
-        {philosophers.map((philosopher) => (
+        {filteredPhilosophers.map((philosopher) => (
           <div key={philosopher.id} className='philosopher-card'>
             <h2>{philosopher.name}</h2>
             <p>Birth Year: {philosopher.birthYear} Death Year: {philosopher.deathYear}</p>
