@@ -6,8 +6,8 @@ function Home() {
   return (
     <div>
       <section>
-        <h1>Journey Through the Minds of Great Philosophers</h1>
-        <p>Learn about the influential philosopher's who shaped our thoughts and the way we think today.
+        <h1>Cognitive Corner</h1>
+        <p>Journey through the minds of the great philosophers who shaped our thoughts and way we think today.
           <br></br>From Plato to Jacques Derrida, I hope you find the information you are searching for and more! Enlighten yourself!
           <br></br>
         </p>

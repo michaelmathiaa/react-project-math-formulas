@@ -17,7 +17,6 @@ function PhilosopherList() {
 
   return (
     <div>
-      <h2>Philosophers</h2>
       <div>
         {philosophers.map((philosopher) => (
           <div key={philosopher.id} className='philosopherCard'>
