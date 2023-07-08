@@ -22,7 +22,7 @@ function PhilosopherList() {
         {philosophers.map((philosopher) => (
           <div key={philosopher.id} className='philosopherCard'>
             <h3>{philosopher.name}</h3>
-            <img src={philosopher.image}></img>
+            <div>Birth Year: {philosopher.birthYear} Death Year: {philosopher.deathYear}</div>
             <div>{philosopher.description}</div>
           </div>
         ))}

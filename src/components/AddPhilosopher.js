@@ -34,7 +34,6 @@ function AddPhilosopher({ onAddPhilosopher }) {
       });
   };
   
-
   return (
     <div>
       <h2>Add Philosopher</h2>

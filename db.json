@@ -12,13 +12,34 @@
       "name": "Plato",
       "birthYear": -428,
       "deathYear": -348,
-      "description": "How did he?"
+      "description": "A high status Athenian and student of Socrates, achieved such status through his Dialogues and Academy in Athens."
     },
     {
       "id": 3,
       "name": "Aristotle",
       "birthYear": -384,
       "deathYear": -322,
+      "description": "Who art thou?"
+    },
+    {
+      "id": 4,
+      "name": "John Locke",
+      "birthYear": 1632,
+      "deathYear": 1704,
+      "description": "Who art thou?" 
+    },
+    {
+      "id": 5,
+      "name": "Thomas Aquinas",
+      "birthYear": 1225,
+      "deathYear": 1274,
+      "description": "Who art thou?"
+    },
+    {
+      "id": 6,
+      "name": "Avicenna",
+      "birthYear": 980,
+      "deathYear": 1037,
       "description": "Who art thou?"
     }
   ]
