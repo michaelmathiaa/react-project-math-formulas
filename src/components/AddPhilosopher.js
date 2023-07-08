@@ -35,8 +35,8 @@ function AddPhilosopher({ onAddPhilosopher }) {
   };
   
   return (
-    <div>
-      <h2>Add Philosopher</h2>
+    <div className='add-div'>
+      <h1>Add Philosopher</h1>
       <form onSubmit={handleSubmit}>
         <div>
           <label>Name: </label>

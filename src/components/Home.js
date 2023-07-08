@@ -11,7 +11,7 @@ function Home() {
           <br></br>From Plato to Avicenna, I hope you find the information you are searching for and more! Enlighten yourself!
           <br></br>
         </p>
-        <img src={homePageImage} alt="Socrates" className='homeImage'></img>
+        <img src={homePageImage} alt="Socrates" className='home-image'></img>
       </section>
       <section>
         <h4>Recommended Readings</h4>

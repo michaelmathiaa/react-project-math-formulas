@@ -1,10 +1,11 @@
-.homeImage {
+.home-image {
   height: auto;
-  width: 700px;
+  width: 600px;
 }
 
 .link {
   text-decoration: none;
+  color: #006b3c;
 }
 
 .list {

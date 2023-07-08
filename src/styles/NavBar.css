@@ -1,8 +1,13 @@
-.NavBar {
+.nav-bar {
   background-color: #f8f8ff;
   height: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 550px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #006b3c;
 }

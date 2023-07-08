@@ -17,12 +17,12 @@ function PhilosopherList() {
 
   return (
     <div>
-      <div>
+      <div className='philosopher-list'>
         {philosophers.map((philosopher) => (
-          <div key={philosopher.id} className='philosopherCard'>
-            <h3>{philosopher.name}</h3>
-            <div>Birth Year: {philosopher.birthYear} Death Year: {philosopher.deathYear}</div>
-            <div>{philosopher.description}</div>
+          <div key={philosopher.id} className='philosopher-card'>
+            <h2>{philosopher.name}</h2>
+            <p>Birth Year: {philosopher.birthYear} Death Year: {philosopher.deathYear}</p>
+            <p>{philosopher.description}</p>
           </div>
         ))}
       </div>

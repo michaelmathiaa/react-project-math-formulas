@@ -1,11 +1,17 @@
-.philosopherCard {
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  padding: 10px;
-  margin-bottom: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
+.philosopher-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 8px;
+}
+
+.philosopher-card {
   background-color: ghostwhite;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 12px;
+}
+
+.philosopher-card p {
+  font-size: 15px;
 }
