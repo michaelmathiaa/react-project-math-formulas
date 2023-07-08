@@ -5,8 +5,7 @@
       "name": "Socrates",
       "birthYear": -470,
       "deathYear": -399,
-      "description": "Very influential",
-      "image": "./src/images/socrates.jpg"
+      "description": "Very influential"
     },
     {
       "id": 2,
