@@ -27,6 +27,7 @@ function PhilosopherList() {
         placeholder="Search philosophers"
         value={search}
         onChange={(e) => setSearch(e.target.value)}
+        className='search'
       />
       <div className='philosopher-list'>
         {filteredPhilosophers.map((philosopher) => (
