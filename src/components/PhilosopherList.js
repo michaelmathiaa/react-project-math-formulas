@@ -20,15 +20,14 @@ function PhilosopherList() {
       <h2>Philosophers</h2>
       <div>
         {philosophers.map((philosopher) => (
-          <div key={philosopher.id}>
-            <span>
-              {philosopher.name}
-            </span>
+          <div key={philosopher.id} className='philosopherCard'>
+            <h3>{philosopher.name}</h3>
+            <img src={philosopher.image}></img>
             <div>{philosopher.description}</div>
           </div>
         ))}
       </div>
-      <AddPhilosopher philosophers={philosophers} onAddPhilosopher={handleAddPhilosopher}/>
+      <AddPhilosopher onAddPhilosopher={handleAddPhilosopher} />
     </div>
   );
 }

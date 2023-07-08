@@ -4,7 +4,7 @@ import "../styles/NavBar.css";
 
 function NavBar() {
     return (
-        <div className="navbar">
+        <div className="NavBar">
             <NavLink
                 to="/"
                 exact
