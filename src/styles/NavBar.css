@@ -1,13 +1,17 @@
 .nav-bar {
-  background-color: #f8f8ff;
-  height: 30px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 550px;
+  justify-content: center;
+  background-color: ghostwhite;
+  padding: 10px;
 }
 
 .nav-link {
+  margin: 0 10px;
+  color: #333;
   text-decoration: none;
-  color: #006b3c;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #666;
 }
