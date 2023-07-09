@@ -11,18 +11,11 @@ import averroes from "../images/averroes.jpg";
 import reneDescartes from "../images/rene-descartes.jpg";
 
 function Gallery() {
+  const philosopherImages = [socrates, plato, aristotle, johnLocke, thomasAquinas, avicenna, karlMarx, immanuelKant, averroes, reneDescartes];
+
   return (
     <div>
-      <img src={socrates} alt="Socrates"></img>
-      <img src={plato} alt="Plato"></img>
-      <img src={aristotle} alt="Aristotle"></img>
-      <img src={johnLocke} alt="John Locke"></img>
-      <img src={thomasAquinas} alt="Thomas Aquinas"></img>
-      <img src={avicenna} alt="Avicenna"></img>
-      <img src={karlMarx} alt="Karl Marx"></img>
-      <img src={immanuelKant} alt="Immanuel Kant"></img>
-      <img src={averroes} alt="Averroes"></img>
-      <img src={reneDescartes} alt="Rene Descartes"></img>
+      {philosopherImages.map((philosopherImage) => <img src={philosopherImage} alt={philosopherImage} key={philosopherImage}></img>)}
     </div>
   )
 }
