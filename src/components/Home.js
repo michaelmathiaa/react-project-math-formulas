@@ -11,9 +11,11 @@ function Home() {
       <main>
         <p>Find out more about the great philosophers who shaped our thoughts and way we think today.
           <br></br>From Plato to Avicenna, I hope you find the information you are searching for and more! Enlighten yourself!
-          <br></br>
         </p>
         <img src={homePageImage} alt="Socrates" className='home-image'></img>
+        <p>This is a growing archive so please feel free to add as many philosopher's to the list. The minus sign in the philosopher's
+          <br></br>birth year and death year indicates BCE 'Before Common Era' and the absence of it indicates CE 'Common Era'.
+        </p>
       </main>
       <footer>
         <h4>Recommended Readings</h4>
