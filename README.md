@@ -1,8 +1,8 @@
 # Cognitive Corner
 
-Welcome to my first React project.
+Welcome to my first React project. This is an archive of philosophers that allows users to learn a little about philosophers and add a philosopher to the list. Please fork this repository to your machine, use 'npm run server' to start the server and 'npm start' to load the application in the browser.
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
