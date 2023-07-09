@@ -5,42 +5,42 @@
       "name": "Socrates",
       "birthYear": -470,
       "deathYear": -399,
-      "description": "Very influential"
+      "description": "An ancient Greek philosopher known for his Socratic method of inquiry, which involved engaging in thought-provoking dialogues to stimulate critical thinking and expose contradictions. He emphasized the pursuit of knowledge, self-examination, and the importance of living an examined life. Despite his controversial reputation in Athens, Socrates' ideas and methods have had a lasting impact on philosophy and intellectual discourse."
     },
     {
       "id": 2,
       "name": "Plato",
       "birthYear": -428,
       "deathYear": -348,
-      "description": "A high status Athenian and student of Socrates, achieved such status through his Dialogues and Academy in Athens."
+      "description": "An ancient Greek philosopher and student of Socrates who explored a wide range of philosophical topics in his written dialogues. He proposed the existence of an eternal realm of abstract forms, considering it the true reality behind the imperfect physical world. Plato's works also addressed political philosophy, advocating for a just society led by philosopher-kings, and delved into ethics, emphasizing the harmony of the soul as the basis of virtue."
     },
     {
       "id": 3,
       "name": "Aristotle",
       "birthYear": -384,
       "deathYear": -322,
-      "description": "Who art thou?"
+      "description": "A Greek philosopher and student of Plato who went on to become a teacher of Alexander the Great. His works cover areas of knowledge, including logic, metaphysics, ethics, politics, and natural sciences. He developed a systematic approach to understanding the world based on observation and empirical evidence, emphasizing the importance of reason and logic in acquiring knowledge."
     },
     {
       "id": 4,
       "name": "John Locke",
       "birthYear": 1632,
       "deathYear": 1704,
-      "description": "Who art thou?" 
+      "description": "A 17th-century English philosopher whose writings played a crucial role in shaping Enlightenment thought. His major work, 'An Essay Concerning Human Understanding,' explored the nature of human knowledge and argued that it is derived from sensory experience and reflection. Locke advocated for the principles of individual liberty, limited government, and the social contract, which influenced the development of democratic ideals and constitutional governance."
     },
     {
       "id": 5,
       "name": "Thomas Aquinas",
       "birthYear": 1225,
       "deathYear": 1274,
-      "description": "Who art thou?"
+      "description": "An Italian medieval philosopher and theologian who sought to reconcile faith and reason, integrating Aristotelian philosophy with Christian theology. His major work, 'Summa Theologica,' presented a system of theology that covered a wide range of topics, including the existence of God, ethics, and the nature of humanity. He argued for the existence of God through philosophical reasoning and emphasized the importance of both faith and reason in understanding the world."
     },
     {
       "id": 6,
       "name": "Avicenna",
       "birthYear": 980,
       "deathYear": 1037,
-      "description": "Who art thou?"
+      "description": "A Persian philosopher, physician, and polymath, also known as Ibn Sina, who made significant contributions to philosophy, medicine, and science during the Islamic Golden Age. His most famous work 'The Canon of Medicine,' is an extensive medical encyclopedia that became a standard medical textbook in Europe for centuries. He developed a comprehensive system known as Avicennian philosophy, which blended Aristotelian and Neoplatonic ideas with Islamic theology."
     }
   ]
 }
