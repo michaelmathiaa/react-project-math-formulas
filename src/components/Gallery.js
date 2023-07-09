@@ -1,5 +1,5 @@
 import "../styles/Gallery.css";
-import socrates from "../images/socrates.jpg";
+import medieval from "../images/medieval.jpg";
 import plato from "../images/plato.jpg";
 import aristotle from "../images/aristotle.jpg";
 import johnLocke from "../images/john-locke.jpg";
@@ -11,7 +11,7 @@ import averroes from "../images/averroes.jpg";
 import reneDescartes from "../images/rene-descartes.jpg";
 
 function Gallery() {
-  const philosopherImages = [socrates, plato, aristotle, johnLocke, thomasAquinas, avicenna, karlMarx, immanuelKant, averroes, reneDescartes];
+  const philosopherImages = [medieval, plato, aristotle, johnLocke, thomasAquinas, avicenna, karlMarx, immanuelKant, averroes, reneDescartes];
 
   return (
     <div>
