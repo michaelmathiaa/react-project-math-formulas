@@ -1,6 +1,6 @@
 # Cognitive Corner
 
-Welcome to my first React project, Cognitive Corner. This is a growing archive of philosophers that allows users to learn about philosophers and add one to the list. There is a search bar to allow users to find the philosopher they are looking for as the list grows. The '-' in birth year and death year indicates BCE (Before Common Era). The absence of '-' indicates CE (Common Era).
+Welcome to my first React project, Cognitive Corner. This is a growing archive of philosophers that allows users to learn about philosophers and add one to the list. There is a search bar to allow users to find the philosopher they are looking for as the list grows. The minus sign in birth year and death year indicates BCE (Before Common Era). The absence of the minus sign indicates CE (Common Era).
 
 ## Usage
 
