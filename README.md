@@ -1,6 +1,6 @@
 # Cognitive Corner
 
-Welcome to my first React project. This is an archive of philosophers that allows users to learn a little about philosophers and add a philosopher to the list.
+Welcome to my first React project, Cognitive Corner. This is an archive of philosophers that allows users to learn a little about philosophers and add a philosopher to the list. This is a growing list so feel free to add as many as you like. 
 
 ## Usage
 
